@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import charactersSlice from '../features/characters/charactersSlice';
+import photoSlice from '../features/photos/photoSlice';
 
 export const store = configureStore({
   reducer: {
-    characters: charactersSlice,
+    photos: photoSlice,
   },
 });

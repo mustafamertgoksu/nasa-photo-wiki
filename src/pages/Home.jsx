@@ -1,15 +1,15 @@
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { getCharacters } from "../features/characters/charactersSlice";
+import { getDatas } from "../features/photos/photoSlice";
 import styles from '../components/styles/Home.module.css';
 import Header from "../components/Header";
 
 
 const Home = () => {
-    const datas = useSelector(state => state.characters.items);
+    const datas = useSelector(state => state.photos.items);
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(getCharacters());
+        dispatch(getDatas());
     }, [dispatch]);
 
     console.log(datas);
