@@ -1,0 +1,24 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 65%;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 3rem;
+}
+
+.img {
+    height: auto;
+    width: 75%;
+    border-radius: 50%;
+}
+
+.title {
+    color: grey;
+    font-size: 2rem;
+}
+
+.explanation {
+    color: grey;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
